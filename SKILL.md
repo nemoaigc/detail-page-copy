@@ -13,7 +13,7 @@ examples_en:
   - "Write Taobao detail page copy for this insulated cup"
   - "Write screen-by-screen detail page copy for this cat food"
   - "Here is a best-seller's detail page; write mine for this face cream with the same structure"
-version: 0.3.1
+version: 0.3.2
 author: 斑头雁
 ---
 
