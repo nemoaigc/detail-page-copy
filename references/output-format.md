@@ -84,7 +84,7 @@
 
 ## 7. 图上文字清单
 
-只列会出现在图上的字，逐字，按屏编号；整屏留空的写"（待补充，暂不出图）"，部分留空的照写已有的字，JSON 里 `ready` 填 false：
+只列会出现在图上的字，逐字，按屏编号；整屏留空的写"（待补充，暂不出图）"，部分留空的照写已有的字，JSON 里 `ready` 填 false。表格屏只缺个别项的，缺的项不列，`ready` 填 true：
 
 ```
 1｜主标题：xxx｜副标题：xxx｜要点：xxx / xxx
@@ -95,5 +95,9 @@
 后面附 JSON，给出图工具读取：
 
 ```json
-[{"screen": 1, "role": "首屏", "title": "", "subtitle": "", "points": [], "ready": true}]
+[{"screen": 1, "role": "首屏", "title": "", "subtitle": "", "points": [], "ready": true},
+ {"screen": 9, "role": "尺码", "title": "", "subtitle": "", "points": [], "table": [["尺码", "衣长"], ["M", "68"]], "ready": true}]
 ```
+
+- `table`：只有表格屏写，二维数组，一行一个数组；有表头时表头是第一行。"项：值"列表写成两列。
+- 颜色、口味这类选项屏：每个选项一条，放进 `points`。
