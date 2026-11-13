@@ -13,7 +13,7 @@ examples_en:
   - "Write Taobao detail page copy for this insulated cup"
   - "Write screen-by-screen detail page copy for this cat food"
   - "Here is a best-seller's detail page; write mine for this face cream with the same structure"
-version: 0.5.2
+version: 0.5.3
 author: 斑头雁
 ---
 
@@ -185,7 +185,7 @@ author: 斑头雁
 
 按这个顺序输出，格式见 `references/output-format.md`：
 
-1. **一句话总结**：共几屏、前三屏回答什么、补资料清单有几行。
+1. **一句话总结**：共几屏、前三屏回答什么、补资料清单有几行。用户点名要写进标题或卖点的词和数字，因为没确认、没依据或不合规而没上图的，在总结下面逐条列出：用户原话、没用的原因、补什么就能用。
 2. **买家问题表**：每个问题的来源、次数、资料里有没有答案、放在哪屏。有参考页时，后面附**参考页结构表**（第 4 步的表，加一列"我们放在第几屏"）。
 3. **事实卡**（第 2 步的表）。
 4. **逐屏文案稿**。多平台时先写通用稿，再单列各平台的首屏版本。
